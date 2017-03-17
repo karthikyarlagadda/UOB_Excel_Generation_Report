@@ -1,0 +1,560 @@
+2017-03-14 00:36:09,581  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:36:09 IST 2017
+2017-03-14 00:36:09,587  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.36.09.587 AM
+2017-03-14 00:36:09,588  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:36:09,588  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:36:09,589  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:36:09,590  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:36:09,590  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:36:09,590  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:36:09,590  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:36:09,591  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:36:09,591  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:36:09,843  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:36:10,099  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@1df5a8f
+2017-03-14 00:36:10,100  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:36:10,100  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:36:10,100  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:36:10,100  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:36:10,100  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:36:10,101  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:36:10,164  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@1e13d52
+2017-03-14 00:36:10,164  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:36:10,164  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:36:10,165  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.36.09.590 AM')
+2017-03-14 00:36:10,248  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.36.09.590 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@1f8c6df
+2017-03-14 00:36:10,269  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:36:10,272  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:36:10,273  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:36:10,273  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:36:10,274  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:36:10,274  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:36:10,274  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:36:10,274  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:36:10,274  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:36:10,276  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:36:10,280  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:36:10,345 ERROR [main] (DBOperationsDaoImpl.java:131) - Exception Message In close()::null
+java.lang.NullPointerException
+	at jxl.write.biff.CellValue.setCellDetails(CellValue.java:264)
+	at jxl.write.biff.LabelRecord.setCellDetails(LabelRecord.java:223)
+	at jxl.write.biff.WritableSheetImpl.addCell(WritableSheetImpl.java:797)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.addLabel(Excel_report_GenerationImpl.java:103)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.createContent(Excel_report_GenerationImpl.java:87)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.write(Excel_report_GenerationImpl.java:70)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.excel_Report_Generation(Excel_report_GenerationImpl.java:51)
+	at com.uob.fp.excel_report_genertaion.dao.impl.DBOperationsDaoImpl.getUOBCurrentDateCases(DBOperationsDaoImpl.java:124)
+	at com.uob.fp.excel_report_genertaion.delegate.UOBExcel_ReportBusinessDelegate.getCaseFolder(UOBExcel_ReportBusinessDelegate.java:45)
+	at com.uob.fp.excel_report_genertaion.UOBExcel_Report.main(UOBExcel_Report.java:14)
+2017-03-14 00:36:10,346 ERROR [main] (UOBExcel_ReportBusinessDelegate.java:49) - Exception occured due to::::::Exception Message ::null
+2017-03-14 00:37:41,184  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:37:41 IST 2017
+2017-03-14 00:37:41,199  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.37.41.199 AM
+2017-03-14 00:37:41,200  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:37:41,200  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:37:41,202  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:37:41,202  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:37:41,206  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:37:41,206  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:37:41,207  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:37:41,207  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:37:41,207  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:37:41,435  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:37:41,629  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@1b09468
+2017-03-14 00:37:41,629  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:37:41,629  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:37:41,629  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:37:41,629  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:37:41,630  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:37:41,630  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:37:41,655  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@b2a2d8
+2017-03-14 00:37:41,655  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:37:41,655  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:37:41,655  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.37.41.202 AM')
+2017-03-14 00:37:41,713  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.37.41.202 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@1f8c6df
+2017-03-14 00:37:41,729  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:37:41,731  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:37:41,731  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:37:41,731  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:37:41,732  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:37:41,732  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:37:41,732  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:37:41,732  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:37:41,732  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:37:41,733  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:37:41,736  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:37:41,787  INFO [main] (Excel_report_GenerationImpl.java:102) - excelSheet :: jxl.write.biff.WritableSheetImpl@14384c2
+2017-03-14 00:37:41,787  INFO [main] (Excel_report_GenerationImpl.java:104) - i :: 0
+2017-03-14 00:37:41,787  INFO [main] (Excel_report_GenerationImpl.java:105) - j :: 0
+2017-03-14 00:37:41,787  INFO [main] (Excel_report_GenerationImpl.java:106) - object :: Saved Searches
+2017-03-14 00:37:41,788 ERROR [main] (DBOperationsDaoImpl.java:131) - Exception Message In close()::null
+java.lang.NullPointerException
+	at jxl.write.biff.CellValue.setCellDetails(CellValue.java:264)
+	at jxl.write.biff.LabelRecord.setCellDetails(LabelRecord.java:223)
+	at jxl.write.biff.WritableSheetImpl.addCell(WritableSheetImpl.java:797)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.addLabel(Excel_report_GenerationImpl.java:110)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.createContent(Excel_report_GenerationImpl.java:87)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.write(Excel_report_GenerationImpl.java:70)
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.excel_Report_Generation(Excel_report_GenerationImpl.java:51)
+	at com.uob.fp.excel_report_genertaion.dao.impl.DBOperationsDaoImpl.getUOBCurrentDateCases(DBOperationsDaoImpl.java:124)
+	at com.uob.fp.excel_report_genertaion.delegate.UOBExcel_ReportBusinessDelegate.getCaseFolder(UOBExcel_ReportBusinessDelegate.java:45)
+	at com.uob.fp.excel_report_genertaion.UOBExcel_Report.main(UOBExcel_Report.java:14)
+2017-03-14 00:37:41,789 ERROR [main] (UOBExcel_ReportBusinessDelegate.java:49) - Exception occured due to::::::Exception Message ::null
+2017-03-14 00:41:08,301  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:41:08 IST 2017
+2017-03-14 00:41:08,303  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.41.08.303 AM
+2017-03-14 00:41:08,304  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:41:08,304  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:41:08,304  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:41:08,305  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:41:08,305  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:41:08,305  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:41:08,306  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:41:08,306  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:41:08,306  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:41:08,512  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:41:08,716  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@1f6f296
+2017-03-14 00:41:08,716  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:41:08,716  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:41:08,717  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:41:08,717  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:41:08,717  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:41:08,718  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:41:08,745  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@1df5a8f
+2017-03-14 00:41:08,745  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:41:08,745  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:41:08,745  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.41.08.305 AM')
+2017-03-14 00:41:08,808  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.41.08.305 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@73a7ab
+2017-03-14 00:41:08,828  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:41:08,830  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:41:08,831  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:41:08,831  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:41:08,831  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:41:08,831  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:41:08,831  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:41:08,831  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:41:08,832  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:41:08,833  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:41:08,835  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:41:08,885  INFO [main] (Excel_report_GenerationImpl.java:115) - excelSheet :: jxl.write.biff.WritableSheetImpl@1a80a69
+2017-03-14 00:41:08,885  INFO [main] (Excel_report_GenerationImpl.java:117) - i :: 0
+2017-03-14 00:41:08,885  INFO [main] (Excel_report_GenerationImpl.java:118) - j :: 0
+2017-03-14 00:41:08,885  INFO [main] (Excel_report_GenerationImpl.java:119) - object :: Saved Searches
+2017-03-14 00:41:08,886  INFO [main] (Excel_report_GenerationImpl.java:97) - jsonArray :: [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]
+2017-03-14 00:41:08,886 ERROR [main] (DBOperationsDaoImpl.java:131) - Exception Message In close()::null
+java.lang.NullPointerException
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.excel_Report_Generation(Excel_report_GenerationImpl.java:57)
+	at com.uob.fp.excel_report_genertaion.dao.impl.DBOperationsDaoImpl.getUOBCurrentDateCases(DBOperationsDaoImpl.java:124)
+	at com.uob.fp.excel_report_genertaion.delegate.UOBExcel_ReportBusinessDelegate.getCaseFolder(UOBExcel_ReportBusinessDelegate.java:45)
+	at com.uob.fp.excel_report_genertaion.UOBExcel_Report.main(UOBExcel_Report.java:14)
+2017-03-14 00:41:08,887 ERROR [main] (UOBExcel_ReportBusinessDelegate.java:49) - Exception occured due to::::::Exception Message ::null
+2017-03-14 00:42:40,972  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:42:40 IST 2017
+2017-03-14 00:42:40,974  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.42.40.973 AM
+2017-03-14 00:42:40,975  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:42:40,975  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:42:40,975  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:42:40,976  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:42:40,976  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:42:40,977  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:42:40,977  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:42:40,977  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:42:40,977  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:42:41,230  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:42:41,434  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@8698fa
+2017-03-14 00:42:41,434  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:42:41,435  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:42:41,435  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:42:41,435  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:42:41,435  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:42:41,435  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:42:41,460  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@1ca1588
+2017-03-14 00:42:41,460  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:42:41,460  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:42:41,461  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.42.40.976 AM')
+2017-03-14 00:42:41,529  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.42.40.976 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@ec8784
+2017-03-14 00:42:41,548  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:42:41,550  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:42:41,550  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:42:41,550  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:42:41,550  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:42:41,550  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:42:41,551  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:42:41,551  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:42:41,551  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:42:41,552  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:42:41,554  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:42:41,621 ERROR [main] (DBOperationsDaoImpl.java:131) - Exception Message In close()::null
+java.lang.NullPointerException
+	at com.uob.fp.excel_report_genertaion.excel_report_generationImpl.Excel_report_GenerationImpl.excel_Report_Generation(Excel_report_GenerationImpl.java:57)
+	at com.uob.fp.excel_report_genertaion.dao.impl.DBOperationsDaoImpl.getUOBCurrentDateCases(DBOperationsDaoImpl.java:124)
+	at com.uob.fp.excel_report_genertaion.delegate.UOBExcel_ReportBusinessDelegate.getCaseFolder(UOBExcel_ReportBusinessDelegate.java:45)
+	at com.uob.fp.excel_report_genertaion.UOBExcel_Report.main(UOBExcel_Report.java:14)
+2017-03-14 00:42:41,622 ERROR [main] (UOBExcel_ReportBusinessDelegate.java:49) - Exception occured due to::::::Exception Message ::null
+2017-03-14 00:43:17,869  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:43:17 IST 2017
+2017-03-14 00:43:17,871  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.43.17.871 AM
+2017-03-14 00:43:17,872  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:43:17,872  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:43:17,872  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:43:17,873  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:43:17,873  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:43:17,873  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:43:17,874  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:43:17,874  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:43:17,874  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:43:18,074  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:43:18,252  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@1f6f296
+2017-03-14 00:43:18,252  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:43:18,252  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:43:18,252  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:43:18,252  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:43:18,253  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:43:18,253  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:43:18,280  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@1df5a8f
+2017-03-14 00:43:18,280  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:43:18,280  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:43:18,280  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.43.17.873 AM')
+2017-03-14 00:43:18,339  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.43.17.873 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@73a7ab
+2017-03-14 00:43:18,357  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:43:18,359  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:43:18,359  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:43:18,359  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:43:18,359  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:43:18,359  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:43:18,360  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:43:18,360  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:43:18,360  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:43:18,361  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:43:18,363  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:44:27,089  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:44:27 IST 2017
+2017-03-14 00:44:27,091  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.44.27.091 AM
+2017-03-14 00:44:27,091  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:44:27,092  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:44:27,092  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:44:27,093  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:44:27,093  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:44:27,093  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:44:27,094  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:44:27,094  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:44:27,094  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:44:27,312  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:44:27,504  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@1b09468
+2017-03-14 00:44:27,504  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:44:27,505  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:44:27,505  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:44:27,505  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:44:27,505  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:44:27,505  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:44:27,530  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@b2a2d8
+2017-03-14 00:44:27,530  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:44:27,530  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:44:27,530  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.44.27.092 AM')
+2017-03-14 00:44:27,599  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.44.27.092 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@104faf8
+2017-03-14 00:44:27,618  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:44:27,621  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:44:27,621  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:44:27,621  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:44:27,621  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:44:27,621  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:44:27,621  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:44:27,622  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:44:27,622  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:44:27,623  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:44:27,625  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:46:52,360  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:46:52 IST 2017
+2017-03-14 00:46:52,361  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.46.52.361 AM
+2017-03-14 00:46:52,362  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:46:52,362  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:46:52,363  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:46:52,363  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:46:52,363  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:46:52,364  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:46:52,364  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:46:52,364  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:46:52,364  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:46:52,582  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:46:52,792  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@1b09468
+2017-03-14 00:46:52,792  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:46:52,792  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:46:52,793  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:46:52,793  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:46:52,793  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:46:52,793  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:46:52,819  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@b2a2d8
+2017-03-14 00:46:52,820  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:46:52,820  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:46:52,820  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.46.52.363 AM')
+2017-03-14 00:46:52,881  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.46.52.363 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@104faf8
+2017-03-14 00:46:52,900  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:46:52,902  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:46:52,902  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:46:52,903  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:46:52,903  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:46:52,903  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:46:52,903  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:46:52,903  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:46:52,903  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:46:52,905  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:46:52,907  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:46:52,954  INFO [main] (Excel_report_GenerationImpl.java:130) - label :: jxl.write.Label@1b48197
+2017-03-14 00:46:52,955  INFO [main] (Excel_report_GenerationImpl.java:130) - label :: jxl.write.Label@14384c2
+2017-03-14 00:46:52,955  INFO [main] (Excel_report_GenerationImpl.java:130) - label :: jxl.write.Label@1c0ec97
+2017-03-14 00:49:02,625  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:49:02 IST 2017
+2017-03-14 00:49:02,627  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.49.02.627 AM
+2017-03-14 00:49:02,628  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:49:02,628  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:49:02,628  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:49:02,629  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:49:02,629  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:49:02,629  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:49:02,629  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:49:02,630  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:49:02,630  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:49:02,830  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:49:03,058  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@11a64ed
+2017-03-14 00:49:03,058  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:49:03,059  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:49:03,059  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:49:03,059  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:49:03,059  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:49:03,059  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:49:03,090  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@8bdcd2
+2017-03-14 00:49:03,090  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:49:03,090  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:49:03,090  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.49.02.628 AM')
+2017-03-14 00:49:03,159  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.49.02.628 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@1ebd75b
+2017-03-14 00:49:03,180  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:49:03,182  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:49:03,182  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:49:03,182  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:49:03,182  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:49:03,183  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:49:03,183  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:49:03,183  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:49:03,183  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:49:03,184  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:49:03,188  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:49:03,247  INFO [main] (Excel_report_GenerationImpl.java:130) - label :: jxl.write.Label@175d6ab
+2017-03-14 00:49:03,248  INFO [main] (Excel_report_GenerationImpl.java:130) - label :: jxl.write.Label@1484a05
+2017-03-14 00:49:03,248  INFO [main] (Excel_report_GenerationImpl.java:130) - label :: jxl.write.Label@f39b3a
+2017-03-14 00:50:08,540  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:50:08 IST 2017
+2017-03-14 00:50:08,541  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.50.08.541 AM
+2017-03-14 00:50:08,542  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:50:08,542  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:50:08,542  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:50:08,543  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:50:08,543  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:50:08,543  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:50:08,543  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:50:08,544  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:50:08,544  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:50:08,766  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:50:08,977  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@11a64ed
+2017-03-14 00:50:08,977  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:50:08,978  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:50:08,978  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:50:08,978  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:50:08,978  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:50:08,978  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:50:09,006  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@8bdcd2
+2017-03-14 00:50:09,007  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:50:09,007  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:50:09,007  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.50.08.543 AM')
+2017-03-14 00:50:09,065  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.50.08.543 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@1ebd75b
+2017-03-14 00:50:09,079  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:50:09,081  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:50:09,082  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:50:09,082  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:50:09,082  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:50:09,082  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:50:09,082  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:50:09,083  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:50:09,083  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:50:09,084  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:50:09,086  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:50:09,135  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@175d6ab
+2017-03-14 00:50:09,136  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@1484a05
+2017-03-14 00:50:09,136  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@f39b3a
+2017-03-14 00:51:10,223  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:51:10 IST 2017
+2017-03-14 00:51:10,225  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.51.10.225 AM
+2017-03-14 00:51:10,225  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:51:10,226  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:51:10,226  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:51:10,226  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:51:10,227  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:51:10,227  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:51:10,227  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:51:10,227  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:51:10,228  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:51:10,446  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:51:10,655  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@11a64ed
+2017-03-14 00:51:10,655  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:51:10,655  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:51:10,655  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:51:10,655  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:51:10,656  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:51:10,656  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:51:10,684  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@8bdcd2
+2017-03-14 00:51:10,684  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:51:10,684  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:51:10,684  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.51.10.226 AM')
+2017-03-14 00:51:10,743  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.51.10.226 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@1ebd75b
+2017-03-14 00:51:10,760  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:51:10,762  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:51:10,763  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:51:10,763  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:51:10,763  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:51:10,763  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:51:10,764  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:51:10,764  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:51:10,764  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:51:10,765  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:51:10,767  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:51:10,821  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@160a26f
+2017-03-14 00:51:10,822  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@f39b3a
+2017-03-14 00:51:10,822  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@1542a75
+2017-03-14 00:51:10,823  INFO [main] (Excel_report_GenerationImpl.java:113) - excelSheet :: jxl.write.biff.WritableSheetImpl@75e4fc
+2017-03-14 00:51:10,823  INFO [main] (Excel_report_GenerationImpl.java:115) - i :: 0
+2017-03-14 00:51:10,823  INFO [main] (Excel_report_GenerationImpl.java:116) - j :: 0
+2017-03-14 00:51:10,823  INFO [main] (Excel_report_GenerationImpl.java:117) - object :: Saved Searches
+2017-03-14 00:51:10,824  INFO [main] (Excel_report_GenerationImpl.java:95) - jsonArray :: [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]
+2017-03-14 00:54:09,989  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:54:09 IST 2017
+2017-03-14 00:54:09,990  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.54.09.990 AM
+2017-03-14 00:54:09,991  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:54:09,991  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:54:09,992  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:54:09,992  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:54:09,992  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:54:09,992  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:54:09,993  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:54:09,993  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:54:09,993  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:54:10,222  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:54:10,454  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@1d80e6d
+2017-03-14 00:54:10,454  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:54:10,454  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:54:10,454  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:54:10,454  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:54:10,454  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:54:10,455  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:54:10,482  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@4e79f1
+2017-03-14 00:54:10,482  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:54:10,482  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:54:10,482  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.54.09.992 AM')
+2017-03-14 00:54:10,537  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.54.09.992 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@87c268
+2017-03-14 00:54:10,553  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:54:10,555  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:54:10,555  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:54:10,555  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:54:10,556  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:54:10,556  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:54:10,556  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:54:10,556  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:54:10,556  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:54:10,557  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:54:10,561  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:54:10,623  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@160a26f
+2017-03-14 00:54:10,624  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@f39b3a
+2017-03-14 00:54:10,624  INFO [main] (Excel_report_GenerationImpl.java:131) - label :: jxl.write.Label@1542a75
+2017-03-14 00:54:10,624  INFO [main] (Excel_report_GenerationImpl.java:113) - excelSheet :: jxl.write.biff.WritableSheetImpl@75e4fc
+2017-03-14 00:54:10,625  INFO [main] (Excel_report_GenerationImpl.java:115) - i :: 0
+2017-03-14 00:54:10,625  INFO [main] (Excel_report_GenerationImpl.java:116) - j :: 0
+2017-03-14 00:54:10,625  INFO [main] (Excel_report_GenerationImpl.java:117) - object :: Saved Searches
+2017-03-14 00:54:10,625  INFO [main] (Excel_report_GenerationImpl.java:95) - jsonArray :: [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]
+2017-03-14 00:55:36,924  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:55:36 IST 2017
+2017-03-14 00:55:36,926  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.55.36.926 AM
+2017-03-14 00:55:36,926  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:55:36,927  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:55:36,927  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:55:36,927  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:55:36,927  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:55:36,928  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:55:36,928  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:55:36,928  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:55:36,928  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:55:37,155  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:55:37,383  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@11a64ed
+2017-03-14 00:55:37,383  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:55:37,383  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:55:37,383  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:55:37,383  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:55:37,383  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:55:37,384  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:55:37,416  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@4e79f1
+2017-03-14 00:55:37,416  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:55:37,416  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:55:37,417  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.55.36.927 AM')
+2017-03-14 00:55:37,473  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.55.36.927 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@87c268
+2017-03-14 00:55:37,491  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:55:37,493  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:55:37,494  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:55:37,494  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:55:37,494  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:55:37,494  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:55:37,494  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:55:37,495  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:55:37,495  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:55:37,496  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:55:37,499  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:55:37,552  INFO [main] (Excel_report_GenerationImpl.java:134) - label :: jxl.write.Label@160a26f
+2017-03-14 00:55:37,553  INFO [main] (Excel_report_GenerationImpl.java:134) - label :: jxl.write.Label@f39b3a
+2017-03-14 00:55:37,553  INFO [main] (Excel_report_GenerationImpl.java:134) - label :: jxl.write.Label@1542a75
+2017-03-14 00:55:37,553  INFO [main] (Excel_report_GenerationImpl.java:116) - excelSheet :: jxl.write.biff.WritableSheetImpl@75e4fc
+2017-03-14 00:55:37,553  INFO [main] (Excel_report_GenerationImpl.java:118) - i :: 0
+2017-03-14 00:55:37,553  INFO [main] (Excel_report_GenerationImpl.java:119) - j :: 0
+2017-03-14 00:55:37,554  INFO [main] (Excel_report_GenerationImpl.java:120) - object :: Saved Searches
+2017-03-14 00:55:37,554  INFO [main] (Excel_report_GenerationImpl.java:116) - excelSheet :: jxl.write.biff.WritableSheetImpl@75e4fc
+2017-03-14 00:55:37,554  INFO [main] (Excel_report_GenerationImpl.java:118) - i :: 0
+2017-03-14 00:55:37,554  INFO [main] (Excel_report_GenerationImpl.java:119) - j :: 1
+2017-03-14 00:55:37,554  INFO [main] (Excel_report_GenerationImpl.java:120) - object :: Saved Searches
+2017-03-14 00:56:33,846  INFO [main] (UOBExcel_ReportBusinessDelegate.java:30) - New Date () ::: Tue Mar 14 00:56:33 IST 2017
+2017-03-14 00:56:33,848  INFO [main] (UOBExcel_ReportBusinessDelegate.java:33) - covertDateFomat2 Date is :: 14-Mar-17 12.56.33.847 AM
+2017-03-14 00:56:33,848  INFO [main] (UOBExcel_ReportBusinessDelegate.java:39) - Formated Date is :: 14-Mar-17
+2017-03-14 00:56:33,848  INFO [main] (UOBExcel_ReportBusinessDelegate.java:41) - EPOCH FORMAT 1463639620123
+2017-03-14 00:56:33,849  INFO [main] (UOBExcel_ReportBusinessDelegate.java:43) - Convererted Date :: 2016-05-19
+2017-03-14 00:56:33,849  INFO [main] (DBOperationsDaoImpl.java:46) - Entered into the method getUOBCurrentDateCases Of DBOperationsDAOImpl
+2017-03-14 00:56:33,849  INFO [main] (DataBaseConnectionProvider.java:144) - Entered into getOracleConnection class ==> getOracleConnection
+2017-03-14 00:56:33,849  INFO [main] (DataBaseConnectionProvider.java:147) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:56:33,849  INFO [main] (DataBaseConnectionProvider.java:150) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:56:33,850  INFO [main] (DataBaseConnectionProvider.java:153) - username is...TGUSER
+2017-03-14 00:56:33,850  INFO [main] (DataBaseConnectionProvider.java:156) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:56:34,075  INFO [main] (DataBaseConnectionProvider.java:158) - DB_Encrypt password is...mits
+2017-03-14 00:56:34,314  INFO [main] (DataBaseConnectionProvider.java:178) - End of  getOracleConnection method  connection --->oracle.jdbc.driver.T4CConnection@10e3293
+2017-03-14 00:56:34,314  INFO [main] (DataBaseConnectionProvider.java:194) - Entered into getUOB_CUSTOM_DB_CONNECTION class ==> getOracleConnection
+2017-03-14 00:56:34,315  INFO [main] (DataBaseConnectionProvider.java:197) - url is...jdbc:oracle:thin:@172.16.8.112:1521:orcl
+2017-03-14 00:56:34,315  INFO [main] (DataBaseConnectionProvider.java:200) - driver is...oracle.jdbc.driver.OracleDriver
+2017-03-14 00:56:34,315  INFO [main] (DataBaseConnectionProvider.java:203) - username is...UOBDATABASE
+2017-03-14 00:56:34,315  INFO [main] (DataBaseConnectionProvider.java:206) - DB_Decrypt Password is  ::: A859E29327E4FAFFC9EF21248EDEC1B2
+2017-03-14 00:56:34,316  INFO [main] (DataBaseConnectionProvider.java:208) - DB_Encrypt password is...mits
+2017-03-14 00:56:34,348  INFO [main] (DataBaseConnectionProvider.java:228) - End of  getUOB_CUSTOM_DB_CONNECTION method  connection --->oracle.jdbc.driver.T4CConnection@19b5393
+2017-03-14 00:56:34,348  INFO [main] (DBOperationsDaoImpl.java:50) - currentDate::::::::DB impl:::::14-Mar-17
+2017-03-14 00:56:34,348  INFO [main] (DBOperationsDaoImpl.java:56) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where
+2017-03-14 00:56:34,348  INFO [main] (DBOperationsDaoImpl.java:62) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.56.33.849 AM')
+2017-03-14 00:56:34,415  INFO [main] (DBOperationsDaoImpl.java:68) - SQLQuery:::::::SELECT U9858_CMACMCASEIDENTIFIER,U4126_CMACMAUDITCONFIGURATIONS,MODIFY_USER,NAME FROM CONTAINER where (create_date BETWEEN '14-Mar-17  12:00:00.000 AM' AND '14-Mar-17 12.56.33.849 AM')
+preparedStatement : oracle.jdbc.driver.OraclePreparedStatementWrapper@15ac3c9
+2017-03-14 00:56:34,431  INFO [main] (DBOperationsDaoImpl.java:71) - resultSet size is::::::::::10
+2017-03-14 00:56:34,433  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:56:34,433  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U9858_CMACMCASEIDENTIFIER
+2017-03-14 00:56:34,434  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:56:34,434  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: U4126_CMACMAUDITCONFIGURATIONS
+2017-03-14 00:56:34,434  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:56:34,434  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: MODIFY_USER
+2017-03-14 00:56:34,434  INFO [main] (DBOperationsDaoImpl.java:87) - U9858_CMACMCASEIDENTIFIER :: 25012017LMRI000001
+2017-03-14 00:56:34,434  INFO [main] (DBOperationsDaoImpl.java:89) - ColumnName :: NAME
+2017-03-14 00:56:34,436  INFO [main] (DBOperationsDaoImpl.java:94) - excelPrepartionArray after while loop is::::[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}]
+2017-03-14 00:56:34,438  INFO [main] (DBOperationsDaoImpl.java:120) - finalArray after while loop is::::[[{"NAME":"Saved Searches","U4126_CMACMAUDITCONFIGURATIONS":null,"U9858_CMACMCASEIDENTIFIER":"25012017LMRI000001","MODIFY_USER":"fnp8admin"}, [{"ACTC_ACT_TASK_ID":"{2A129CD4-6D3F-475A-BB76-C56B94EEC09F}","ACTC_ID":859,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{61751CE3-B27F-48F6-A04E-8ED9EFA3B260}","ACTC_ID":860,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{E2B16E12-1689-47B8-9758-E3654DFAEBEF}","ACTC_ID":858,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{1A55EAD7-B30E-4B4D-98A1-7534C3E712BB}","ACTC_ID":861,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{ABB55239-9A67-4E86-A217-D328C04879BC}","ACTC_ID":863,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{C2981445-8CB6-4D8D-BC85-31C21D5574CC}","ACTC_ID":864,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{DBD3925D-9080-4D77-9983-CE3ED8F618BC}","ACTC_ID":865,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}, {"ACTC_ACT_TASK_ID":"{82231A5E-7739-40D4-A568-34A39F1EEF55}","ACTC_ID":862,"ACTC_CASE_REF_NUMBER":"25012017LMRI000001"}]]]
+2017-03-14 00:56:34,495  INFO [main] (Excel_report_GenerationImpl.java:134) - label :: jxl.write.Label@adb1d4
+2017-03-14 00:56:34,496  INFO [main] (Excel_report_GenerationImpl.java:134) - label :: jxl.write.Label@160a26f
+2017-03-14 00:56:34,496  INFO [main] (Excel_report_GenerationImpl.java:134) - label :: jxl.write.Label@1484a05
+2017-03-14 00:56:34,497  INFO [main] (Excel_report_GenerationImpl.java:116) - excelSheet :: jxl.write.biff.WritableSheetImpl@1542a75
+2017-03-14 00:56:34,497  INFO [main] (Excel_report_GenerationImpl.java:118) - i :: 0
+2017-03-14 00:56:34,497  INFO [main] (Excel_report_GenerationImpl.java:119) - j :: 1
+2017-03-14 00:56:34,497  INFO [main] (Excel_report_GenerationImpl.java:120) - object :: Saved Searches
